@@ -1,0 +1,10 @@
+name: airlib_example
+description: A peer to peer file transfer library
+version: 0.0.1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  airlib:
+    path: ../
