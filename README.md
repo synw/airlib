@@ -7,6 +7,7 @@ Peer to peer file transfer library for Dart. Powered by [Node commander](https:/
 Run a soldier node where to read the files from:
 
    ```dart
+   import 'package:nodecommander/nodecommander.dart';
    import 'package:airlib/airlib.dart';
 
    final ip = await getHost();
